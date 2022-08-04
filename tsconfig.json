@@ -6,6 +6,7 @@
         "outDir": "build",
         "target": "ES6", // JS version - Typescript compiled
         "lib": ["ES6", "DOM"], // Running Environment, API Auto-complete support available
-        "strict": true
+        "strict": true,
+        "allowJs": true
     }
 }
