@@ -3,6 +3,7 @@ class Block {
         private data:string
     ){}
     static hello(){
+        window.localStorage.clear();
         return "hi";
     }
 }
