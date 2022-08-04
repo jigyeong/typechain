@@ -4,6 +4,6 @@
     ],
     "compilerOptions": {
         "outDir": "build",
-        "target": "ES3" // JS version - Typescript compiled
+        "target": "ES6" // JS version - Typescript compiled
     }
 }
