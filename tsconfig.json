@@ -1,0 +1,9 @@
+{
+    "include": [
+        "src"// Typescript watch files inside "src/"
+    ],
+    "compilerOptions": {
+        "outDir": "build",
+        "target": "ES3" // JS version - Typescript compiled
+    }
+}
