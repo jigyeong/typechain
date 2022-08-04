@@ -1,9 +1,3 @@
-class Block {
-    constructor(
-        private data:string
-    ){}
-    static hello(){
-        window.localStorage.clear();
-        return "hi";
-    }
-}
+import { init } from "myPackage";
+
+init({"url":"www"});
