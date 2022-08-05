@@ -7,6 +7,7 @@
         "target": "ES6", // JS version - Typescript compiled
         "lib": ["ES6", "DOM"], // Running Environment, API Auto-complete support available
         "strict": true,
-        "allowJs": true
+        "esModuleInterop": true, // Allow import JS module 
+        "module": "CommonJS"
     }
 }
